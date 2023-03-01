@@ -8,6 +8,7 @@ namespace Regex_Problems
         {
            RegexProblem regex = new RegexProblem();
             regex.ValidFirstName("Vaibhav");
+            regex.ValidLastName("Mehta");
             Console.ReadLine();
         }
     }

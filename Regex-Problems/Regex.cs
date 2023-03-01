@@ -22,6 +22,18 @@ namespace Regex_Problems
                 Console.WriteLine("First name is not matching with Regex");
             }
         }
+        public void ValidLastName(string name)
+        {
+            string lastName = "^[A - Z][a - z]{ 3,}?";
+            if (Regex.IsMatch(name, lastName))
+            {
+                Console.WriteLine("Last name is matching with Regex");
+            }
+            else
+            {
+                Console.WriteLine("Last name is not matching with Regex");
+            }
+        }
     }
 }
                 
