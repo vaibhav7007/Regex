@@ -9,6 +9,7 @@ namespace Regex_Problems
            RegexProblem regex = new RegexProblem();
             regex.ValidFirstName("Vaibhav");
             regex.ValidLastName("Mehta");
+            regex.ValidateEmail("abc.xyz@bridgelabz.co.in");
             Console.ReadLine();
         }
     }
