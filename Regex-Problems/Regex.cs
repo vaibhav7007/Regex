@@ -100,7 +100,7 @@ namespace Regex_Problems
             string spclChar = "[0-9a-z][!@#$%&*]{1}";
             if (Regex.IsMatch(character, spclChar))
             {
-                Console.WriteLine("Special character is matching with Regex");
+                Console.WriteLine("Special Character is matching with Regex");
             }
             else
             {
