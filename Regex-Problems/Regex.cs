@@ -83,6 +83,18 @@ namespace Regex_Problems
                 Console.WriteLine("It is not matching with Regex");
             }
         }
+        public void ValidateNumericPassword(string numpassword)
+        {
+            string password = "[a-zA-Z][0-9]{1,}";
+            if (Regex.IsMatch(numpassword, password))
+            {
+                Console.WriteLine("Numeric password is matching with Regex");
+            }
+            else
+            {
+                Console.WriteLine("Numeric password is not matching with Regex");
+            }
+        }
     }
 }
                 

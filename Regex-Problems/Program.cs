@@ -13,6 +13,7 @@ namespace Regex_Problems
             regex.ValidatePhoneNumber("91 1234567890");
             regex.ValidatePassword("Vaibhav123");
             regex.ValidateString("Vaibhav");
+            regex.ValidateNumericPassword("Vaibhav1");
             Console.ReadLine();
         }
     }
