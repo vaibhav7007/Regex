@@ -12,7 +12,7 @@ namespace Regex_Problems
     {
         public void ValidFirstName(string name)
         {
-            string firstName = "^[A - Z][a - z]{ 3,}?";
+            string firstName = "^[A-z]{1}[a-z]{2,}$";
             if (Regex.IsMatch(name, firstName))
             {
                 Console.WriteLine("First name is matching with Regex");
@@ -24,7 +24,7 @@ namespace Regex_Problems
         }
         public void ValidLastName(string name)
         {
-            string lastName = "^[A - Z][a - z]{ 3,}?";
+            string lastName = "^[A-z]{1}[a-z]{2,}$";
             if (Regex.IsMatch(name, lastName))
             {
                 Console.WriteLine("Last name is matching with Regex");
