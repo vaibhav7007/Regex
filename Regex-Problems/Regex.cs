@@ -59,6 +59,18 @@ namespace Regex_Problems
                 Console.WriteLine("Phone Number is not matching with Regex");
             }
         }
+        public void ValidatePassword(string pswrd)
+        {
+            string password = @"[A-Z a-z 0-9]{8,}";
+            if (Regex.IsMatch(pswrd, password))
+            {
+                Console.WriteLine("password is matching with Regex");
+            }
+            else
+            {
+                Console.WriteLine("password is not matching with Regex");
+            }
+        }
     }
 }
                 
