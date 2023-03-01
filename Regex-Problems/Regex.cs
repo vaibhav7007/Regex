@@ -24,7 +24,7 @@ namespace Regex_Problems
         }
         public void ValidLastName(string name)
         {
-            string lastName = "^[A - Z][a - z]{ 3,}?";
+            string lastName = "^[A-Z]{1}[a-z]{2,}$";
             if (Regex.IsMatch(name, lastName))
             {
                 Console.WriteLine("Last name is matching with Regex");
